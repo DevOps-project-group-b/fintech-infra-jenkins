@@ -25,9 +25,11 @@ variable "main-region" {
 variable "security_group_id" {
   description = "The security group ID to attach to the instance"
   type        = string
+  default     = "sg-0731e874ccd6675c1"
 }
 
 variable "subnet_id" {
   description = "The subnet ID where the instance will be deployed"
   type        = string
+  default     = "subnet-0d5a8e21e3932a8b1"
 }
